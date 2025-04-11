@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edward's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Edward's<span>Portfolio</span></a>
+            <div class="hamburger" id="hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#" class="nav-link" data-page="home">Home</a></li>
+                <li><a href="#" class="nav-link" data-page="about">About</a></li>
+                <li><a href="#" class="nav-link" data-page="recipe1">Spaghetti Carbonara</a></li>
+                <li><a href="#" class="nav-link" data-page="recipe2">Chocolate Cake</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Home Page -->
+    <section class="page active" id="home">
+        <div class="hero">
+            <!-- Hero Images -->
+            <img src="Images/dev.jpg" alt="Fruits" class="hero-image active" id="heroImage1">
+            <img src="Images/CookingChef.jpg" alt="Chef Cooking" class="hero-image inactive" id="heroImage2">
+            
+            <div class="hero-content">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Hi, I'm Edward. A passionate web developer and food enthusiast.</p>
+                <a href="#" class="btn" data-page="about">Learn More About Me</a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="about" style="padding-top: 3rem;">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Who Am I?</h3>
+                        <p>I'm a self-taught web developer with a passion for creating beautiful, functional websites. When I'm not coding, you can find me in the kitchen experimenting with new recipes or enjoying a good book.</p>
+                        <p>My journey in web development started 2 years ago, and I've been hooked ever since. I love the challenge of solving problems and the creativity involved in building digital experiences.</p>
+                        <div class="skills">
+                            <h4>My Skills</h4>
+                            <div class="skills-list">
+                                <span class="skill">HTML</span>
+                                <span class="skill">CSS</span>
+                                <span class="skill">JavaScript</span>
+                                <span class="skill">Responsive Design</span>
+                                <span class="skill">UI/UX</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-img">
+                        <img src="Images/AbtImage.jpg" alt="Edward's Profile Photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Page -->
+    <section class="page" id="about">
+        <div class="container">
+            <div class="about">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-img">
+                        <img src="Images/Me.jpg" alt="Edward's Profile Photo">
+                    </div>
+                    <div class="about-text">
+                        <h3>My Story</h3>
+                        <p>Born and raised in Nairobi, Kenya, I discovered my passion for technology at an early age. I focus on front-end development where I could combine my technical skills with my eye for design.</p>
+                        <p>When I'm not coding, you'll find me exploring new restaurants, cooking Italian cuisine, or hiking. I believe in lifelong learning and constantly challenge myself to grow both professionally and personally.</p>
+                        
+                        <h3 style="margin-top: 2rem;">Fun Facts</h3>
+                        <ul>
+                            <li>• I'm a student at Jomo Kenyatta University of Agriculture and Technology(JKUAT)</li>
+                            <li>• My favorite book is "The Alchemist" by Paulo Coelho</li>
+                        </ul>
+                        
+                        <div class="skills" style="margin-top: 2rem;">
+                            <h4>Technical Skills</h4>
+                            <div class="skills-list">
+                                <span class="skill">HTML5</span>
+                                <span class="skill">CSS3</span>
+                                <span class="skill">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recipe Page 1 - Spaghetti Carbonara -->
+    <section class="page" id="recipe1">
+        <div class="container">
+            <div class="recipe">
+                <div class="recipe-header">
+                    <h2 class="section-title">Spaghetti Carbonara</h2>
+                    <p>A classic Italian pasta dish with creamy egg sauce, pancetta, and cheese</p>
+                </div>
+                <div class="recipe-content">
+                    <div class="recipe-img">
+                        <img src="Images/spagetti.jpg" alt="Spaghetti Carbonara">
+                    </div>
+                    <div class="recipe-details">
+                        <div class="ingredients">
+                            <h3>Ingredients</h3>
+                            <ul>
+                                <li>400g spaghetti</li>
+                                <li>200g pancetta or guanciale, diced</li>
+                                <li>4 large eggs</li>
+                                <li>50g pecorino cheese, grated</li>
+                                <li>50g parmesan, grated</li>
+                                <li>Freshly ground black pepper</li>
+                                <li>Salt</li>
+                            </ul>
+                        </div>
+                        <div class="instructions">
+                            <h3>Instructions</h3>
+                            <ol>
+                                <li>Bring a large pot of salted water to boil and cook spaghetti according to package instructions.</li>
+                                <li>While pasta cooks, fry pancetta in a large pan until crispy.</li>
+                                <li>In a bowl, whisk eggs with grated cheeses and plenty of black pepper.</li>
+                                <li>Drain pasta, reserving a cup of pasta water.</li>
+                                <li>Quickly toss hot pasta with pancetta, then remove from heat.</li>
+                                <li>Add egg mixture, stirring quickly to create a creamy sauce. Add pasta water if needed.</li>
+                                <li>Serve immediately with extra grated cheese and pepper.</li>
+                            </ol>
+                        </div>
+                        <div class="nutrition">
+                            <h3>Nutritional Information (per serving)</h3>
+                            <p>Calories: 650 | Protein: 25g | Carbs: 75g | Fat: 25g</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recipe Page 2 - Chocolate Cake -->
+    <section class="page" id="recipe2">
+        <div class="container">
+            <div class="recipe">
+                <div class="recipe-header">
+                    <h2 class="section-title">Chocolate Cake</h2>
+                    <p>Decadent and moist chocolate cake with rich chocolate frosting</p>
+                </div>
+                <div class="recipe-content">
+                    <div class="recipe-img">
+                        <img src="Images/Cake.jpg" alt="Chocolate Cake">
+                    </div>
+                    <div class="recipe-details">
+                        <div class="ingredients">
+                            <h3>Ingredients</h3>
+                            <h4>For the cake:</h4>
+                            <ul>
+                                <li>2 cups all-purpose flour</li>
+                                <li>2 cups sugar</li>
+                                <li>3/4 cup unsweetened cocoa powder</li>
+                                <li>2 tsp baking powder</li>
+                                <li>1.5 tsp baking soda</li>
+                                <li>1 tsp salt</li>
+                                <li>1 cup milk</li>
+                                <li>1/2 cup vegetable oil</li>
+                                <li>2 large eggs</li>
+                                <li>2 tsp vanilla extract</li>
+                                <li>1 cup boiling water</li>
+                            </ul>
+                            <h4>For the frosting:</h4>
+                            <ul>
+                                <li>1 cup butter, softened</li>
+                                <li>3.5 cups powdered sugar</li>
+                                <li>1/2 cup cocoa powder</li>
+                                <li>1/2 tsp salt</li>
+                                <li>2 tsp vanilla extract</li>
+                                <li>4 tbsp heavy cream</li>
+                            </ul>
+                        </div>
+                        <div class="instructions">
+                            <h3>Instructions</h3>
+                            <h4>For the cake:</h4>
+                            <ol>
+                                <li>Preheat oven to 350°F (175°C). Grease and flour two 9-inch cake pans.</li>
+                                <li>In a large bowl, mix flour, sugar, cocoa, baking powder, baking soda, and salt.</li>
+                                <li>Add milk, oil, eggs, and vanilla. Beat on medium speed for 2 minutes.</li>
+                                <li>Stir in boiling water (batter will be thin). Pour into prepared pans.</li>
+                                <li>Bake 30-35 minutes until a toothpick comes out clean. Cool completely.</li>
+                            </ol>
+                            <h4>For the frosting:</h4>
+                            <ol>
+                                <li>Beat butter until creamy. Slowly add powdered sugar and cocoa powder.</li>
+                                <li>Add salt, vanilla, and cream. Beat on high for 1 minute until fluffy.</li>
+                                <li>Frost cooled cake layers.</li>
+                            </ol>
+                        </div>
+                        <div class="nutrition">
+                            <h3>Nutritional Information (per slice)</h3>
+                            <p>Calories: 450 | Protein: 4g | Carbs: 65g | Fat: 20g</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>Let's connect and create something amazing together!</p>
+            <p>Email: gichuhiedward91@gmail.com| Phone: 0792289562</p>
+            <p class="copyright">© 2025 Edward Gichuhi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <!-- JavaScript -->
+    <script slot=""type="text/javascript" src="script.js"></script>
+</body>
+</html>
